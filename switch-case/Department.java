@@ -6,7 +6,7 @@ public class Department {
         int empID = scanner.nextInt();
         String department = scanner.next();
 
-        switch (empID) {
+        switch (empID) { // Nested Switch Case
             case 1:
                 System.out.println("Sam");
                 break;
