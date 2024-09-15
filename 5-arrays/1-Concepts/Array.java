@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Array {
@@ -6,10 +7,8 @@ public class Array {
         int[] arr = new int[5];
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
-            for (int j = 0; j < arr.length; j++) {
-                System.out.println(arr[i] + " ");
-            }
         }
+        System.out.println(Arrays.toString(arr));
         sc.close();
     }
 }
